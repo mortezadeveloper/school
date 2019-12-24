@@ -1,4 +1,4 @@
-//welcome
+
 #include "pch.h"
 #include <iostream>
 #include <vector>
@@ -21,10 +21,9 @@ int main()
 	vector<string>student;
 	string username,Password;
 	bool exit = false;
-	bool login = true;
 	while (exit == false)
 	{
-
+		bool login = true;
 		system("cls");
 		cout << "Hello !\nPlease enter username :" << endl;
 		getline(cin, username);
